@@ -4,8 +4,6 @@ from langchain._api import LangChainDeprecationWarning
 
 warnings.simplefilter("ignore", category=LangChainDeprecationWarning)
 
-
-## added stuff 
 import os
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
